@@ -10,7 +10,7 @@ Eugen R. (@EugenSusurrus)    |       signal_strength
 Rony B.  (@BalayetRony)      |       distance
                              |       avg_speed
 -----------------------------------------------------
-Fahad S. (@)                 |       no_of_stops
+Fahad S. (@fahadsha)         |       no_of_stops
                              |       kind_of_transport
 -----------------------------------------------------
 Yu Y.    (@)                 |       traffic_jam
