@@ -7,8 +7,8 @@ CONTRIBUTOR:                 |       FUNCTIONALITY:
 Eugen R. (@EugenSusurrus)    |       signal_strength
                              |       noise_level
 -----------------------------------------------------
-Rony B.  (@)                 |       distance
-                             |       speed
+Rony B.  (@BalayetRony)      |       distance
+                             |       avg_speed
 -----------------------------------------------------
 Fahad S. (@)                 |       no_of_stops
                              |       kind_of_transport
