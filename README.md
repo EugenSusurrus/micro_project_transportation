@@ -12,6 +12,10 @@ A brief micro-project to visualize and analyze android smartphone sensor data an
 |                              |              bumps|
 ****************************************************************************************************************************************
 # Data acquisition description
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 ****************************************************************************************************************************************
 The sensor data was acquired via an Android smartphone while traveling on multiple means of transportation. The device was held as stable as possible in order to reduce noise and undesired signals. The data was then exported to a *.csv* format and the table header fields were filtered to remove the uninterpretable symbols and shorten the header names for easier 
 acquisition. The *.csv* data contains the next fields:
