@@ -52,8 +52,12 @@ def filt_data(levels_in):
 def plot_heatmap(lat_in, lon_in, values, filename):
 ```
 >Plots an interactive heatmap with the values specified in the <values> dataframe at the latitudes and longitudes specified in the <lat_in> and <lon_in> accordingly. Saves the file with the specified <filename> Returns 0 at exit with success
+*sample image:*
+![alt text](https://raw.githubusercontent.com/EugenSusurrus/micro_project_transportation/master/sample_images/Heatmap.PNG "Heatmap")
 ***************************************************************************************************************************************
 ```python
 def plot_maploc(lat_in, lon_in, filename):
 ```
 >Plots markers located at latitudes <lat_in> dataframe and longitudes <lon_in> dataframe on a map.Suitable for marker plotting for a relatively low ammount of data. Saves the map with the specified <filename> filename and returns 0 on successful exit.
+*sample image:*
+![alt text](https://raw.githubusercontent.com/EugenSusurrus/micro_project_transportation/master/sample_images/Location%20on%20Map.PNG "Location on map")
