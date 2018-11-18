@@ -1,15 +1,15 @@
 # micro_project_transportation
 A brief micro-project to visualize and analyze android smartphone sensor data and  integrate it into a transportation/travel application prototype.
-| Contributor                  |     Functionality |
-| ---------------------------- |:-----------------:|
-| Eugen R. (@EugenSusurrus)    |         device_out|
-|                              |        noise_level|
-| Rony B.  (@BalayetRony)      |           distance|
-|                              |          avg_speed|
-| Fahad S. (@fahadsha)         |        no_of_stops|
-|                              |  kind_of_transport|
-| Yu Y.    (@)                 |        traffic_jam|
-|                              |              bumps|
+ Contributor                  |  Functionality 
+ ---------------------------- | -----------------
+ Eugen R. (@EugenSusurrus)    |  device_out|
+                              |  noise_level|
+ Rony B.  (@BalayetRony)      |  distance|
+                              |  avg_speed|
+ Fahad S. (@fahadsha)         |  no_of_stops|
+                              |  kind_of_transport|
+ Yu Y.    (@)                 |  traffic_jam|
+                              |  bumps|
 ****************************************************************************************************************************************
 # Data acquisition description
 Markdown | Less | Pretty
