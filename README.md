@@ -41,6 +41,19 @@ acquisition. The *.csv* data contains the next fields:
 ```python
 get_sound(time_df, levels_df)
 ```
->Takes as input the time dataframe <time_df> and soundlevels dataframe
-><levels_df> and returns the adjusted time in seconds <time> and the
->sound levels accordingly <sound_level>
+>Takes as input the time dataframe <time_df> and soundlevels dataframe <levels_df> and returns the adjusted time in seconds <time> and the sound levels accordingly <sound_level>
+****************************************************************************************************************************************
+```python
+def filt_data(levels_in):
+```
+>Takes as input the unfiltered data levels <levels_in> and returns a second degree filtered array of the input data <filt_data_2>
+****************************************************************************************************************************************
+```python
+def plot_heatmap(lat_in, lon_in, values, filename):
+```
+>Plots an interactive heatmap with the values specified in the <values> dataframe at the latitudes and longitudes specified in the <lat_in> and <lon_in> accordingly. Saves the file with the specified <filename> Returns 0 at exit with success
+***************************************************************************************************************************************
+```python
+def plot_maploc(lat_in, lon_in, filename):
+```
+>Plots markers located at latitudes <lat_in> dataframe and longitudes <lon_in> dataframe on a map.Suitable for marker plotting for a relatively low ammount of data. Saves the map with the specified <filename> filename and returns 0 on successful exit.
