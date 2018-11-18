@@ -3,20 +3,15 @@ A brief micro-project to visualize and analyze android smartphone sensor data an
 
  Contributor                  |  Functionality 
  ---------------------------- | -----------------
- Eugen R. (@EugenSusurrus)    |  device_out|
-                              |  noise_level|
- Rony B.  (@BalayetRony)      |  distance|
-                              |  avg_speed|
- Fahad S. (@fahadsha)         |  no_of_stops|
-                              |  kind_of_transport|
- Yu Y.    (@)                 |  traffic_jam|
-                              |  bumps|
-****************************************************************************************************************************************
-# Data acquisition description
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+ Eugen R. (@EugenSusurrus)    |  device_out
+ Eugen R. (@EugenSusurrus)    |  noise_level
+ Rony B.  (@BalayetRony)      |  distance
+ Rony B.  (@BalayetRony)      |  avg_speed
+ Fahad S. (@fahadsha)         |  no_of_stops
+ Fahad S. (@fahadsha)         |  kind_of_transport
+ Yu Y.    (@)                 |  traffic_jam
+ Yu Y.    (@)                 |  bumps
+                              
 ****************************************************************************************************************************************
 The sensor data was acquired via an Android smartphone while traveling on multiple means of transportation. The device was held as stable as possible in order to reduce noise and undesired signals. The data was then exported to a *.csv* format and the table header fields were filtered to remove the uninterpretable symbols and shorten the header names for easier 
 acquisition. The *.csv* data contains the next fields:
