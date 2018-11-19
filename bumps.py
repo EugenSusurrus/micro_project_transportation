@@ -11,8 +11,10 @@ from gmplot import gmplot
 from scipy.signal import find_peaks
 import data_import
 
+
 RMS_LINEAR_ACC = np.sqrt((data_import.LINEAR_ACC_X)**2+(data_import.LINEAR_ACC_Y)**2+ \
                            (data_import.LINEAR_ACC_Z)**2)
+"""
 plt.figure(1, figsize=(15, 10))
 plt.plot(data_import.TIME/1000, RMS_LINEAR_ACC, 'r', label='RMS of the linear acc')
 plt.ylabel('RMS of linear ACC in m/s²', fontsize=16)
@@ -23,7 +25,7 @@ plt.grid(which='minor', linestyle='-', linewidth=0.2, color='black')
 plt.legend(fontsize=16)
 PEAKS, _ = find_peaks(RMS_LINEAR_ACC, height=0)
 NO_PEAKS = len(PEAKS)
-
+"""
 def show_bumps_distribution(Rms_acc, latitudes, longitudes):
     """bumps function"""
     min_lat, max_lat, min_lon, max_lon = \
