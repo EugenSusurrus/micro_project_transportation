@@ -3,6 +3,7 @@ A brief micro-project to visualize and analyze android smartphone sensor data an
 ****************************************************************************************************************************************
 [![Build Status](https://travis-ci.org/EugenSusurrus/micro_project_transportation.svg?branch=master)](https://travis-ci.org/EugenSusurrus/micro_project_transportation)
 [![codecov](https://codecov.io/gh/EugenSusurrus/micro_project_transportation/branch/master/graph/badge.svg)](https://codecov.io/gh/EugenSusurrus/micro_project_transportation)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/098d25e61aa94de88b7d913fbc581251)](https://www.codacy.com/app/EugenSusurrus/micro_project_transportation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EugenSusurrus/micro_project_transportation&amp;utm_campaign=Badge_Grade)
 ****************************************************************************************************************************************
 ### Contributors
 ****************************************************************************************************************************************
