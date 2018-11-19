@@ -2,6 +2,7 @@
 A brief micro-project to visualize and analyze android smartphone sensor data and  integrate it into a transportation/travel application prototype.
 ****************************************************************************************************************************************
 [![Build Status](https://travis-ci.org/EugenSusurrus/micro_project_transportation.svg?branch=master)](https://travis-ci.org/EugenSusurrus/micro_project_transportation)
+[![codecov](https://codecov.io/gh/EugenSusurrus/micro_project_transportation/branch/master/graph/badge.svg)](https://codecov.io/gh/EugenSusurrus/micro_project_transportation)
 ****************************************************************************************************************************************
 ### Contributors
 ****************************************************************************************************************************************
