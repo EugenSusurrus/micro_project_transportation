@@ -64,3 +64,27 @@ def plot_maploc(lat_in, lon_in, filename):
   
 *sample image:*
 ![alt text](https://raw.githubusercontent.com/EugenSusurrus/micro_project_transportation/master/sample_images/Location%20on%20Map.PNG "Location on map")
+
+***************************************************************************************************************************************
+```python
+def data_import:
+```
+>import all the data varibales. There are two choices of data file to import. Data1 is Dest_kpit_rosenheim.csv as analysis data. Data2 is Dest_rosenheim_kpit_Testdata.csv as testing data.
+  
+***************************************************************************************************************************************
+```python
+def bumps:
+```
+>Analysis All the Bumps the user experienced during travelling. The Lila area means that you may have a very big bumps here or you are walking. The pink area means that you have a small bumps here.
+  
+***************************************************************************************************************************************
+```python
+def gmplot_show:
+```
+>Show the travelling route of the user on the google map.
+  
+***************************************************************************************************************************************
+```python
+def Delays:
+```
+>calculate the difference between the expected travelling time (according to the google map) and the actually travelling time.
