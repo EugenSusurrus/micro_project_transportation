@@ -15,15 +15,15 @@ import gmplot_show
 import Delays
 import app_func
 
-def main_test(int_Input):
+def main_test(Input):
     """Unit Test Fuction"""
-    if int_Input == 1:
+    if int(Input) == 1:
         gmplot_show.main()
         return 1
-    if int_Input == 2:
+    if int(Input) == 2:
         bumps.main()
         return 2
-    if int_Input == 3:
+    if int(Input) == 3:
         Delays.main()
         return 3
     if int(Input) == 4:
