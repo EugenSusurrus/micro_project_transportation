@@ -15,36 +15,14 @@ import gmplot_show
 import Delays
 import app_func
 
-def main_test(Input):
-    """Unit Test Fuction"""
-    if int(Input) == 1:
-        return 1
-    if int(Input) == 2:
-        return 2
-    if int(Input) == 3:
-        return 3
-    if int(Input) == 4:
-        return 4
-    if int(Input) == 5:
-        return 5
-    if int(Input) == 6:
-        return 6
-    if int(Input) == 7:
-        return 7
-    if int(Input) == 8:
-        return 8
-    if int(Input) == 9:
-        return 9
-    if int(Input) == 10:
-        return 10
-    return -1
-
-def main_function():
+def main():
+    """The main function which is used for user interaction interface"""
     while True:
         Input = input("Hi Dear User, You have already choosed the datafile and now \
     which Features do you want to know?\n\n \t1.\tRoute of your journey\n \t2.\tBumps in your journey\n \
     \t3.\tDelay of your journey\n \t4.\tDistance your journey covered\n \t5.\tAverage speed of your journey\n \t6.\t\
-    Sound Intensity Heatmap\n \t7.\tDevice taken out of the pocket\n \t8.\t\n \t9.\t\n \t10.\tYou don not want more informations\n")
+    Sound Intensity Heatmap\n \t7.\tDevice taken out of \
+    the pocket\n \t8.\t\n \t9.\t\n \t10.\tYou don not want more informations\n")
         if int(Input) == 1:
             gmplot_show.main()
             continue
@@ -55,7 +33,7 @@ def main_function():
             Delays.main()
             continue
         if int(Input) == 4:
-    
+
             continue
         if int(Input) == 5:
             continue
@@ -68,7 +46,8 @@ def main_function():
             continue
         if int(Input) == 7:
             indexes = app_func.device_out(data_import.LIGHT)
-            app_func.plot_maploc(data_import.LATITUDES.iloc[indexes], data_import.LONGITUDES.iloc[indexes],\
+            app_func.plot_maploc(data_import.LATITUDES.iloc[indexes],\
+                                 data_import.LONGITUDES.iloc[indexes],\
                     'gm_phone_out.html')
             print("Device taken out of the pocket at these locations.")
             continue
@@ -79,6 +58,6 @@ def main_function():
         if int(Input) == 10:
             print("Thanks so much for using our app, Bye Bye")
             break
- 
+
 if __name__ == '__main__':
     main()
