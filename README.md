@@ -1,6 +1,7 @@
 # micro_project_transportation
 A brief micro-project to visualize and analyze android smartphone sensor data and  integrate it into a transportation/travel application prototype.
 ****************************************************************************************************************************************
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3962aed061f54db683c19aa28f97c0bf)](https://app.codacy.com/app/EugenSusurrus/micro_project_transportation?utm_source=github.com&utm_medium=referral&utm_content=EugenSusurrus/micro_project_transportation&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/EugenSusurrus/micro_project_transportation.svg?branch=master)](https://travis-ci.org/EugenSusurrus/micro_project_transportation)
 [![codecov](https://codecov.io/gh/EugenSusurrus/micro_project_transportation/branch/master/graph/badge.svg)](https://codecov.io/gh/EugenSusurrus/micro_project_transportation)
 ****************************************************************************************************************************************
