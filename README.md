@@ -99,3 +99,14 @@ def gmplot_show:
 def Delays:
 ```
 >calculate the difference between the expected travelling time (according to the google map) and the actually travelling time.
+***************************************************************************************************************************************
+```python
+def no_stops_function:
+```
+>calculate the totally stops in your journey. It includes all means of tranportation.
+***************************************************************************************************************************************
+```python
+def means_of_transport:
+```
+>What kinds of transport you have utilized in the whole journey
+
