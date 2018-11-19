@@ -14,15 +14,16 @@ import bumps
 import gmplot_show
 import Delays
 import app_func
+import means_of_transport
+import no_stops_function
 
 def main():
-    """The main function which is used for user interaction interface"""
     while True:
         Input = input("Hi Dear User, You have already choosed the datafile and now \
     which Features do you want to know?\n\n \t1.\tRoute of your journey\n \t2.\tBumps in your journey\n \
-    \t3.\tDelay of your journey\n \t4.\tDistance your journey covered\n \t5.\tAverage speed of your journey\n \t6.\t\
-    Sound Intensity Heatmap\n \t7.\tDevice taken out of \
-    the pocket\n \t8.\t\n \t9.\t\n \t10.\tYou don not want more informations\n")
+\t3.\tDelay of your journey\n \t4.\tDistance your journey covered\n \t5.\tAverage speed of your journey\n \t6.\t\
+    Sound Intensity Heatmap\n \t7.\tDevice taken out of the pocket\n \t8.\tMeans of transpotations in your journey \n \
+\t9.\tHow many stops you have in your journey\n \t10.\tYou don not want more informations\n")
         if int(Input) == 1:
             gmplot_show.main()
             continue
@@ -33,7 +34,7 @@ def main():
             Delays.main()
             continue
         if int(Input) == 4:
-
+    
             continue
         if int(Input) == 5:
             continue
@@ -46,18 +47,19 @@ def main():
             continue
         if int(Input) == 7:
             indexes = app_func.device_out(data_import.LIGHT)
-            app_func.plot_maploc(data_import.LATITUDES.iloc[indexes],\
-                                 data_import.LONGITUDES.iloc[indexes],\
+            app_func.plot_maploc(data_import.LATITUDES.iloc[indexes], data_import.LONGITUDES.iloc[indexes],\
                     'gm_phone_out.html')
             print("Device taken out of the pocket at these locations.")
             continue
         if int(Input) == 8:
+            means_of_transport.main()
             continue
         if int(Input) == 9:
+            no_stops_function.main()
             continue
         if int(Input) == 10:
             print("Thanks so much for using our app, Bye Bye")
             break
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
