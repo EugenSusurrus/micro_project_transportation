@@ -8,7 +8,18 @@ import pandas as pd
 #DATAFILE_NAME = input("Which travel data you want us to analysis? \
 #please type the Excel file name:  ")
 #print(DATAFILE_NAME)
-DATAFILE_NAME = 'Dest_kpit_rosenheim.csv'
+DATAFILE_NAME_1 = 'Dest_kpit_rosenheim.csv'
+DATAFILE_NAME_2 = 'Dest_rosenheim_kpit_Testdata.csv'
+INPUT = input('Which Datafile do you want?(Data1 or Data2)')
+if INPUT == 'Data1':
+    DATAFILE_NAME = DATAFILE_NAME_1
+    print('You have choosed %s' %DATAFILE_NAME_1)
+elif INPUT == 'Data2':
+    DATAFILE_NAME = DATAFILE_NAME_2
+    print('You have choosed %s' %DATAFILE_NAME_2)
+else:
+    print('Sorry, we have only two datafiles, please choose Data1 or Data2')
+
 DF = pd.read_csv(DATAFILE_NAME)
 TIME = DF['Time since start in ms ']
 TOTAL_TIME = TIME[len(TIME)-1] - TIME[0]
