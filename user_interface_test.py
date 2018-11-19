@@ -5,23 +5,23 @@ Created on Mon Nov 19 16:00:20 2018
 @author: eugenr
 """
 import unittest
-from user_interface import main_test
+from test_func import test_func
 
 class MyTest(unittest.TestCase):
    def test_my_function(self):
-        self.assertEqual(main_test(0), -1)
-        self.assertEqual(main_test(1), 1)
-        self.assertEqual(main_test(2), 2)
-        self.assertEqual(main_test(3), 3)
-        self.assertEqual(main_test(4), 4)
-        self.assertEqual(main_test(5), 5)
-        self.assertEqual(main_test(6), 6)
-        self.assertEqual(main_test(7), 7)
-        self.assertEqual(main_test(8), 8)
-        self.assertEqual(main_test(9), 9)
-        self.assertEqual(main_test(10), 10)
-        self.assertEqual(main_test(15), -1)
-        self.assertEqual(main_test(-5), -1)
+        self.assertEqual(test_func(0), -1)
+        self.assertEqual(test_func(1), 1)
+        self.assertEqual(test_func(2), 2)
+        self.assertEqual(test_func(3), 3)
+        self.assertEqual(test_func(4), 4)
+        self.assertEqual(test_func(5), 5)
+        self.assertEqual(test_func(6), 6)
+        self.assertEqual(test_func(7), 7)
+        self.assertEqual(test_func(8), 8)
+        self.assertEqual(test_func(9), 9)
+        self.assertEqual(test_func(10), 10)
+        self.assertEqual(test_func(15), -1)
+        self.assertEqual(test_func(-5), -1)
         
 if __name__ == '__main__':
     unittest.main()
