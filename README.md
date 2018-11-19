@@ -16,7 +16,7 @@ Yu Y.    [(@)yuy1-kpit](https://github.com/yuy1-kpit)            |  bumps
 ### Brief Description
 ****************************************************************************************************************************************
 The sensor data was acquired via an Android smartphone while traveling on multiple means of transportation. The device was held as stable as possible in order to reduce noise and undesired signals. The data was then exported to a *.csv* format and the table header fields were filtered to remove the uninterpretable symbols and shorten the header names for easier 
-acquisition.  All the datafile come from Fahad S.[(@fahadsha)](https://github.com/fahadsha). He travels everyday from Rosenheim to Munich(KPIT Office Location). The transport means he used include Bus, Train, S-Bahn, Walking. One datafile is used for analysing and the otherone is used for testing. 
+acquisition.  All the datafile come from Fahad S.[(@fahadsha)](https://github.com/fahadsha). He travels everyday from Rosenheim to Munich(KPIT Office Location). The transport means he used include Bus, Train, S-Bahn, Walking. One datafile (Dest_kpit_rosenheim.csv) is used for analysing and the otherone (Dest_rosenheim_kpit_Testdata.csv) is used for testing. 
 The *.csv* data contains the next fields:
 
 * Acceleration along axes:           *ACC X (m/s2)|	ACC Y (m/s2)|	ACC Z (m/s2)*
