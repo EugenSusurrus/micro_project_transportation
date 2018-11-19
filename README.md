@@ -85,6 +85,8 @@ def gmplot_show:
 ```
 >Show the travelling route of the user on the google map.
   
+*sample image:*
+![alt text](https://github.com/EugenSusurrus/micro_project_transportation/blob/master/sample_images/Route.PNG "Routes")
 ***************************************************************************************************************************************
 ```python
 def Delays:
