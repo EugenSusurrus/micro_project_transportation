@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.5"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install codecov
+    #For Coverage Report
+# command to run tests
+script:
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
+  - python incdemo_test.py
+  - coverage run incdemo_test.py
+branches:
+  only:
+   - master
+after_success:
+    - coveralls
+    - codecov
