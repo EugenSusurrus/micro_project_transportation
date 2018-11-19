@@ -4,14 +4,6 @@ Created on Mon Nov 19 16:00:20 2018
 
 @author: eugenr
 """
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  7 12:06:16 2018
-
-@author: eugenr
-"""
-
 import unittest
 from user_interface import main_test
 
