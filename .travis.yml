@@ -9,8 +9,8 @@ install:
 # command to run tests
 script:
   - export PYTHONPATH=$PYTHONPATH:$(pwd)
-  - python user_interface_test.py
-  - coverage run user_interface_test.py
+  - python test_func.py
+  - coverage run test_func.py
 branches:
   only:
    - master
