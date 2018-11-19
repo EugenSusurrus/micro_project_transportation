@@ -10,7 +10,7 @@ Rony B.  [(@BalayetRony)](https://github.com/BalayetRony)        |  distance
 Rony B.  [(@BalayetRony)](https://github.com/BalayetRony)        |  avg_speed
 Fahad S. [(@fahadsha)](https://github.com/fahadsha)              |  no_of_stops
 Fahad S. [(@fahadsha)](https://github.com/fahadsha)              |  kind_of_transport            |  
-Yu Y.    [(@)yuy1-kpit](https://github.com/yuy1-kpit)            |  traffic_jam
+Yu Y.    [(@)yuy1-kpit](https://github.com/yuy1-kpit)            |  traffic_delay
 Yu Y.    [(@)yuy1-kpit](https://github.com/yuy1-kpit)            |  bumps
 
 ### Brief Description
