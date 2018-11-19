@@ -46,7 +46,7 @@ The *.csv* data contains the next fields:
 ### Function description
 ****************************************************************************************************************************************
 ```python
-get_sound(time_df, levels_df)
+def get_sound(time_df, levels_df)
 ```
 >Takes as input the time dataframe <time_df> and soundlevels dataframe <levels_df> and returns the adjusted time in seconds <time> and the sound levels accordingly <sound_level>
 ****************************************************************************************************************************************
