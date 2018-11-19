@@ -15,9 +15,11 @@ Contains the basic transportation app functions:
 """
 import os
 import numpy as np
+import matplotlib.pyplot as plt
 from scipy.signal import savgol_filter
 import folium
 from folium.plugins import HeatMap
+import data_import
 
 
 
@@ -81,3 +83,42 @@ def plot_maploc(lat_in, lon_in, filename):
     map_loc.save(filename)
     os.system(filename)
     return 0
+
+
+
+def device_out(light_val):
+    """Returns the indexes of the dataframe of when the device has been taken out of the
+    pocket based on the light intensity values."""
+    return light_val[light_val > 0].index.values
+
+
+
+def main():
+    """An example of hoiw the above functionality works."""
+    # Getting the sound and time values from the imported dataset
+    time, sound = get_sound(data_import.TIME, data_import.SOUND_LEVEL)
+    # Getting the filtered sound levels
+    sound_f = filt_data(sound)
+
+    # Plotting the filtered sound levels against the raw sound levels
+    plt.figure(figsize=(16, 8))
+    plt.plot(time, sound)
+    plt.plot(time, sound_f)
+    plt.grid()
+    plt.title('Raw sound levels vs filtered sound levels')
+    plt.legend(['Raw Sound', 'Filtered Sound'])
+    plt.xlabel('Time [s]')
+    plt.ylabel('Sound intensity [dB]')
+
+    # Ploting the sound levels heatmap
+    plot_heatmap(data_import.LATITUDES, data_import.LONGITUDES, sound_f, 'gm_sound_levels.html')
+
+    # Getting the indexes of the locations where the phone was taken out of the pocket
+    indexes = device_out(data_import.LIGHT)
+
+    # Plots the locations where the phone was taken out of the pocket
+    plot_maploc(data_import.LATITUDES.iloc[indexes], data_import.LONGITUDES.iloc[indexes],\
+                'gm_phone_out.html')
+
+if __name__ == "__main__":
+    main()
