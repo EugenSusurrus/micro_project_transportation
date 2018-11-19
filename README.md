@@ -76,6 +76,8 @@ def data_import:
 def bumps:
 ```
 >Analysis All the Bumps the user experienced during travelling. The Lila area means that you may have a very big bumps here or you are walking. The pink area means that you have a small bumps here.
+*sample image:*
+![alt text](https://raw.githubusercontent.com/EugenSusurrus/micro_project_transportation/master/sample_images/Bumps.PNG "Bumps")
   
 ***************************************************************************************************************************************
 ```python
