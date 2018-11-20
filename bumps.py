@@ -5,10 +5,10 @@ Created on Mon Nov 12 23:20:40 2018
 @author: yuy1
 """
 import os
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 from gmplot import gmplot
-from scipy.signal import find_peaks
+#from scipy.signal import find_peaks
 import data_import
 
 
