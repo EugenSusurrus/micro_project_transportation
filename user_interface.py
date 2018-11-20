@@ -16,13 +16,15 @@ import Delays
 import app_func
 import means_of_transport
 import no_stops_function
+import Average_speed
+import Distance
 
 def main():
     while True:
         Input = input("Hi Dear User, You have already choosed the datafile and now \
-    which Features do you want to know?\n\n \t1.\tRoute of your journey\n \t2.\tBumps in your journey\n \
+which Features do you want to know?\n\n \t1.\tRoute of your journey\n \t2.\tBumps in your journey\n \
 \t3.\tDelay of your journey\n \t4.\tDistance your journey covered\n \t5.\tAverage speed of your journey\n \t6.\t\
-    Sound Intensity Heatmap\n \t7.\tDevice taken out of the pocket\n \t8.\tMeans of transpotations in your journey \n \
+Sound Intensity Heatmap\n \t7.\tDevice taken out of the pocket\n \t8.\tMeans of transpotations in your journey \n \
 \t9.\tHow many stops you have in your journey\n \t10.\tYou don not want more informations\n")
         if int(Input) == 1:
             gmplot_show.main()
@@ -34,9 +36,10 @@ def main():
             Delays.main()
             continue
         if int(Input) == 4:
-    
+            Distance.main()
             continue
         if int(Input) == 5:
+            Average_speed.main()
             continue
         if int(Input) == 6:
             time, sound = app_func.get_sound(data_import.TIME, data_import.SOUND_LEVEL)
