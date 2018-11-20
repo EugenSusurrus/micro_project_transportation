@@ -20,6 +20,8 @@ import Average_speed
 import Distance
 
 def main():
+    """Our main function as user interface, you just need to run this function
+    to get all the result from our function"""
     while True:
         Input = input("Hi Dear User, You have already choosed the datafile and now \
 which Features do you want to know?\n\n \t1.\tRoute of your journey\n \t2.\tBumps in your journey\n \
@@ -50,7 +52,8 @@ Sound Intensity Heatmap\n \t7.\tDevice taken out of the pocket\n \t8.\tMeans of 
             continue
         if int(Input) == 7:
             indexes = app_func.device_out(data_import.LIGHT)
-            app_func.plot_maploc(data_import.LATITUDES.iloc[indexes], data_import.LONGITUDES.iloc[indexes],\
+            app_func.plot_maploc(data_import.LATITUDES.iloc[indexes], \
+                                 data_import.LONGITUDES.iloc[indexes],\
                     'gm_phone_out.html')
             print("Device taken out of the pocket at these locations.")
             continue
