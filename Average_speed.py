@@ -17,9 +17,7 @@ def main():
     LATITUDE = data_import.LATITUDES
     LONGITUDE = data_import.LONGITUDES
     All_Distance = Distance.distance_calculation(LATITUDE,LONGITUDE)
-    #print(All_Distance)
     averagespeed = average_speed (All_Distance, data_import.TOTAL_TIME/60000)
-    #print(averagespeed)
     
     print ("The average speed of your journey is %f km/h" %(averagespeed*60))
     
